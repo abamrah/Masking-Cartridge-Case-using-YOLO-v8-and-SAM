@@ -1,3 +1,34 @@
+**How to Use**
+
+1) Create a folder named "yolov8_train_test" on Google Drive and upload all the files and folders to it.
+
+2) Open the Google Collab after it has been uploaded to the Google Drive
+
+3) connect the Google Drive folder "yolov8_train_test" to the Google Collab runtime
+
+4) create a T4 runtime (GPU) to run the notebook
+
+5) follow instructions in the notebook to successfully run the notebook cells.
+
+6) Run all cells except "Training" if no training is required
+
+
+**Output**
+
+- All the output files are stored in the output folder
+
+- Output/output folder contains all the masked images and mask files output by the SAM model
+
+- Output/predict folder contains all the bounding boxes files created by YOLO V8
+
+**Test with new Images**
+
+- add new .jpg images to the /test_images folder and run the YOLO V8 inference and SAM inference to get the masked image. 
+
+
+**Report**
+
+
 **Abstract**
 
 The manual masking of fired cartridge cases, a critical function in forensic ballistics, is a process that has traditionally been time-consuming and prone to human error. To address these challenges, this report introduces a novel algorithm designed to automate the masking and coloring of cartridge case images. This automation is particularly vital for sorting and comparing cases to determine their firearm origins, a task of paramount importance in police investigations.
