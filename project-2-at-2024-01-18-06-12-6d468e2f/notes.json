@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "aperture-shear"
+    },
+    {
+      "id": 1,
+      "name": "breech-face"
+    },
+    {
+      "id": 2,
+      "name": "direction"
+    },
+    {
+      "id": 3,
+      "name": "firing-pin"
+    },
+    {
+      "id": 4,
+      "name": "pin-drag"
+    }
+  ],
+  "info": {
+    "year": 2024,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

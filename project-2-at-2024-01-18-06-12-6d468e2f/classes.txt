@@ -1,0 +1,5 @@
+aperture-shear
+breech-face
+direction
+firing-pin
+pin-drag
